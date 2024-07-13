@@ -1,0 +1,13 @@
+plugins {
+    id("minestore.platform")
+}
+
+dependencies {
+    implementation(projects.mineStoreCommon)
+
+    implementation("net.kyori:adventure-platform-bungeecord:4.3.1")
+    compileOnly("net.md-5:bungeecord-api:1.19-R0.1-SNAPSHOT")
+    implementation("net.kyori:adventure-api:4.14.0")
+
+    implementation("org.incendo:cloud-bungee:2.0.0-SNAPSHOT")
+}
